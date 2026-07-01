@@ -13,6 +13,7 @@ cap = cv2.VideoCapture("footage/test2.mp4")
 
 while cap.isOpened():
     ret, frame = cap.read()
+    
     if not ret:
         break
 
@@ -30,8 +31,8 @@ while cap.isOpened():
             "left_knee", "right_knee", "left_ankle", "right_ankle"
         ]
     
-    for name, coords in zip(keypoint_names, keypoints):
-        print(f"  {name}: x={coords[0]:.1f}, y={coords[1]:.1f}")
+        for name, coords in zip(keypoint_names, keypoints):
+            print(f"  {name}: x={coords[0]:.1f}, y={coords[1]:.1f}")
 
     cv2.imshow("Pose Test", annotated_frame)
 
