@@ -219,6 +219,6 @@ Key academic references:
 
 **Sudipta Saha Niloy**
 Postgraduate AI Student — Macquarie University, Sydney, Australia
-[niloy305968@gmail.com] | [https://www.linkedin.com/in/sudipta-saha-niloy/] | [https://github.com/SudiptaSahaNiloy]
+[niloy305968@gmail.com] | [LinkedIn](https://www.linkedin.com/in/sudipta-saha-niloy/) | [https://github.com/SudiptaSahaNiloy]
 
 *Built as a portfolio project and research prototype. Not a commercial product.*
