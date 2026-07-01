@@ -166,10 +166,6 @@ Press `Q` to exit either script.
 
 ## 🔑 Key Technical Notes
 
-**Rotation handling:** Source CCTV footage exports as `(2560, 1440, 3)` — a portrait-orientation frame (9:16 aspect ratio). OpenCV ignores video metadata rotation flags that normal players (e.g. VLC) respect automatically. All frame processing includes an explicit `cv2.rotate()` call before inference to correct orientation.
-
-**Display scaling:** Frames are resized to a fixed display height of 700px before rendering, preserving aspect ratio. Inference runs on the resized frame to match processing cost to actual displayed resolution.
-
 **Privacy by design:** No facial recognition is used at any stage. Detection operates on skeletal pose keypoints only — behavioural signals (wrist position, zone entry, dwell time) without biometric identity. Raw footage is never committed to version control and is kept strictly local.
 
 ---
@@ -193,7 +189,7 @@ Press `Q` to exit either script.
 
 ---
 
-## 🔬 Research Context
+<!-- ## 🔬 Research Context
 
 This project is built in parallel with a PhD research proposal targeting **Video Anomaly Detection (VAD)** in retail environments, with a focus on:
 
@@ -207,7 +203,7 @@ Key academic references:
 - UCF-Crime — Sultani et al., CVPR 2018 (surveillance anomaly dataset)
 - Shopformer — 2025 (transformer-based shoplifting detection)
 
----
+--- -->
 
 ## ⚖️ Privacy & Ethics
 
@@ -221,8 +217,8 @@ Key academic references:
 
 ## 👤 Author
 
-**Sudipta [Last Name]**
+**Sudipta Saha Niloy**
 Postgraduate AI Student — Macquarie University, Sydney, Australia
-[your.email@example.com] | [LinkedIn] | [GitHub]
+[niloy305968@gmail.com] | [https://www.linkedin.com/in/sudipta-saha-niloy/] | [https://github.com/SudiptaSahaNiloy]
 
 *Built as a portfolio project and research prototype. Not a commercial product.*
